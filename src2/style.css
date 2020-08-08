@@ -1,0 +1,30 @@
+/* puedo acceder a elementos HTML por: */
+
+
+/* nombre de etiqueta */
+
+
+/* id */
+
+
+/* class */
+
+body {
+    background: #c1d5e0;
+}
+
+h1 {
+    color: #81c784;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+input {
+    border: 0.2em blue double;
+    border-radius: 1em;
+}
+
+button {
+    color: red;
+    border-radius: 1em;
+}
