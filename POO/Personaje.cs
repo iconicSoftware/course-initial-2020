@@ -24,7 +24,12 @@ namespace Desktop
 
         // declaracion de metodos
         public String detallePersonaje() {
+            calcularEdad();
             return "nombre: " + nombre + " vel: " + velocidad + " salud: " + salud + " fuerza: " + fuerza;
+        }
+
+        private void calcularEdad() {
+
         }
 
         // determina si el personaje es capaz de vencer al enemigo
