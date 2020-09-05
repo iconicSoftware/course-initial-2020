@@ -39,6 +39,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
             "System.Collections.NonGeneric": {
               "target": "Package",
               "version": "[4.3.0, )"

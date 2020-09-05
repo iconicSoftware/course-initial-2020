@@ -105,36 +105,38 @@ namespace Desktop
             // Console.WriteLine(Estatico.edad(1998));
             // Console.WriteLine(Estatico.saluda("Agustin"));
 
-            Cliente c1 = new Cliente();
-            c1.nombre = "agustin";
-            c1.apellido = "decima";
+            // Cliente c1 = new Cliente();
+            // c1.nombre = "agustin";
+            // c1.apellido = "decima";
 
-            Cliente c2 = new Cliente();
-            c2.nombre = "Luciano";
-            c2.apellido = "Cortes";
+            // Cliente c2 = new Cliente();
+            // c2.nombre = "Luciano";
+            // c2.apellido = "Cortes";
 
-            Empresa steam = new Empresa();
-            steam.cuit = 123123123;
-            steam.direccion = "asd";
-            steam.nombre = "Steam";
+            // Empresa steam = new Empresa();
+            // steam.cuit = 123123123;
+            // steam.direccion = "asd";
+            // steam.nombre = "Steam";
 
-            steam.addCliente(c1);
-            steam.addCliente(c2);
+            // steam.addCliente(c1);
+            // steam.addCliente(c2);
 
-            steam.addEmpleado("pepe","saenz",30000);
+            // steam.addEmpleado("pepe","saenz",30000);
 
-            Console.WriteLine(steam.getEmpleados()[0].nombre);
+            // Console.WriteLine(steam.getEmpleados()[0].nombre);
 
-            // eliminando a la empresa;
-            steam = null;
+            // // eliminando a la empresa;
+            // steam = null;
 
-            Console.WriteLine(c2.nombre + " " + c2.apellido);
-            Console.WriteLine(steam.getEmpleados()[0].nombre);
+            // Console.WriteLine(c2.nombre + " " + c2.apellido);
+            // Console.WriteLine(steam.getEmpleados()[0].nombre);
 
 
             UserService.getAllUser();
 
+            Conexion test = new Conexion();
 
+            test.ConectionToBD();
 
 
 

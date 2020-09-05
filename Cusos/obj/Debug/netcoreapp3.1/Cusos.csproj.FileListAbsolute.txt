@@ -1,0 +1,11 @@
+/Users/AguDecima/Desktop/JavaScript/Cusos/bin/Debug/netcoreapp3.1/Cusos
+/Users/AguDecima/Desktop/JavaScript/Cusos/bin/Debug/netcoreapp3.1/Cusos.deps.json
+/Users/AguDecima/Desktop/JavaScript/Cusos/bin/Debug/netcoreapp3.1/Cusos.runtimeconfig.json
+/Users/AguDecima/Desktop/JavaScript/Cusos/bin/Debug/netcoreapp3.1/Cusos.runtimeconfig.dev.json
+/Users/AguDecima/Desktop/JavaScript/Cusos/bin/Debug/netcoreapp3.1/Cusos.dll
+/Users/AguDecima/Desktop/JavaScript/Cusos/bin/Debug/netcoreapp3.1/Cusos.pdb
+/Users/AguDecima/Desktop/JavaScript/Cusos/obj/Debug/netcoreapp3.1/Cusos.csprojAssemblyReference.cache
+/Users/AguDecima/Desktop/JavaScript/Cusos/obj/Debug/netcoreapp3.1/Cusos.AssemblyInfoInputs.cache
+/Users/AguDecima/Desktop/JavaScript/Cusos/obj/Debug/netcoreapp3.1/Cusos.AssemblyInfo.cs
+/Users/AguDecima/Desktop/JavaScript/Cusos/obj/Debug/netcoreapp3.1/Cusos.dll
+/Users/AguDecima/Desktop/JavaScript/Cusos/obj/Debug/netcoreapp3.1/Cusos.pdb
