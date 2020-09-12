@@ -8,6 +8,8 @@ namespace Cusos
         private List<Alumno> _alumnos;
         private Curso _curso;
 
+        public Profesor(){}
+        
         public Profesor(int id, string nombre, int dni, Curso curso) : base(id, nombre, dni) {
             this._alumnos = new List<Alumno>();
             this._curso = curso;

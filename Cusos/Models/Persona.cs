@@ -15,6 +15,18 @@ namespace Cusos
             this._nombre = nombre;
             this._dni = dni;
         }
+
+        public void setId(int id){
+            this._id = id;
+        }
+
+        public void setNombre(string nombre, string apellido){
+            this._nombre = nombre + ", " + apellido;
+        }
+
+        public void setDni(int dni){
+            this._dni = dni;
+        }
         
         public int getId() {
             return this._id;

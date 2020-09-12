@@ -9,8 +9,23 @@ namespace Cusos
             return true;
 
         }
+
+        public static Profesor findProfesorById(int id) {
+            Conexion cn = new Conexion();
+
+            if(id == 0) {
+                throw new Exception();
+            }
+
+            Profesor profesor = cn.getProfesoreById(id);
+            return profesor;
+        }
         public static bool saveProfesor(Profesor profesor) {
             
+            if(profesor.getNombre().Length == 0 && profesor.getId() == 0) {
+                throw new Exception("Los datos estna vacios");
+            }
+
             return true;
 
         }
